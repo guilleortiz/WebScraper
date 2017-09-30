@@ -1,0 +1,19 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "estado": "heroku ps -a cba-web-scraper"
+  },
+  "author": "Guillermo",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.5",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.1.1",
+    "request": "^2.83.0"
+  },
+  "license": "ISC"
+}
