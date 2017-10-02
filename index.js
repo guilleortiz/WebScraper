@@ -59,7 +59,7 @@ function scrape (provincia){
         			sendMail(title);
         			
         		}else {
-        			console.log('Not date jet');
+        			console.log('Not date yet');
         			
         		}
         	
